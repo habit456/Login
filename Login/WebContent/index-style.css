@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+.container {
+	height: 8in;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+#username-warning-div {
+	color: red;
+}
